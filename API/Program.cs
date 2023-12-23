@@ -15,12 +15,13 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddLogging();
 builder.Services.AddTransient<GlobalExceptionHandler>();
 #endregion
-#region Database
-builder.Services.AddDbContext<AppDbContext>(
-    options => options.UseNpgsql(
-        builder.Configuration.GetConnectionString("DefaultConnection"),
-        b => b.MigrationsAssembly("Infrastructure")));
-#endregion
+
+//#region Database
+//builder.Services.AddDbContext<AppDbContext>(
+//    options => options.UseNpgsql(
+//        builder.Configuration.GetConnectionString("DefaultConnection"),
+//        b => b.MigrationsAssembly("Infrastructure")));
+//#endregion
 
 var app = builder.Build();
 

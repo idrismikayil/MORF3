@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Personal Files\\Projects\\MORF3\\MORF3\\API\\API.csproj": {}
+    "C:\\Users\\HP\\Desktop\\MORF3\\API\\API.csproj": {}
   },
   "projects": {
-    "D:\\Personal Files\\Projects\\MORF3\\MORF3\\API\\API.csproj": {
+    "C:\\Users\\HP\\Desktop\\MORF3\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Personal Files\\Projects\\MORF3\\MORF3\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\HP\\Desktop\\MORF3\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "D:\\Personal Files\\Projects\\MORF3\\MORF3\\API\\API.csproj",
-        "packagesPath": "C:\\Users\\James\\.nuget\\packages\\",
-        "outputPath": "D:\\Personal Files\\Projects\\MORF3\\MORF3\\API\\obj\\",
+        "projectPath": "C:\\Users\\HP\\Desktop\\MORF3\\API\\API.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\HP\\Desktop\\MORF3\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\James\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,14 +28,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Personal Files\\Projects\\MORF3\\MORF3\\Application\\Application.csproj": {
-                "projectPath": "D:\\Personal Files\\Projects\\MORF3\\MORF3\\Application\\Application.csproj"
+              "C:\\Users\\HP\\Desktop\\MORF3\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\HP\\Desktop\\MORF3\\Application\\Application.csproj"
               },
-              "D:\\Personal Files\\Projects\\MORF3\\MORF3\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "D:\\Personal Files\\Projects\\MORF3\\MORF3\\Infrastructure\\Infrastructure.csproj"
+              "C:\\Users\\HP\\Desktop\\MORF3\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\HP\\Desktop\\MORF3\\Infrastructure\\Infrastructure.csproj"
               },
-              "D:\\Personal Files\\Projects\\MORF3\\MORF3\\Library\\Library.csproj": {
-                "projectPath": "D:\\Personal Files\\Projects\\MORF3\\MORF3\\Library\\Library.csproj"
+              "C:\\Users\\HP\\Desktop\\MORF3\\Library\\Library.csproj": {
+                "projectPath": "C:\\Users\\HP\\Desktop\\MORF3\\Library\\Library.csproj"
               }
             }
           }
@@ -78,17 +78,17 @@
         }
       }
     },
-    "D:\\Personal Files\\Projects\\MORF3\\MORF3\\Application\\Application.csproj": {
+    "C:\\Users\\HP\\Desktop\\MORF3\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Personal Files\\Projects\\MORF3\\MORF3\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Users\\HP\\Desktop\\MORF3\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "D:\\Personal Files\\Projects\\MORF3\\MORF3\\Application\\Application.csproj",
-        "packagesPath": "C:\\Users\\James\\.nuget\\packages\\",
-        "outputPath": "D:\\Personal Files\\Projects\\MORF3\\MORF3\\Application\\obj\\",
+        "projectPath": "C:\\Users\\HP\\Desktop\\MORF3\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\HP\\Desktop\\MORF3\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\James\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -102,11 +102,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Personal Files\\Projects\\MORF3\\MORF3\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\Personal Files\\Projects\\MORF3\\MORF3\\Domain\\Domain.csproj"
+              "C:\\Users\\HP\\Desktop\\MORF3\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\HP\\Desktop\\MORF3\\Domain\\Domain.csproj"
               },
-              "D:\\Personal Files\\Projects\\MORF3\\MORF3\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "D:\\Personal Files\\Projects\\MORF3\\MORF3\\Infrastructure\\Infrastructure.csproj"
+              "C:\\Users\\HP\\Desktop\\MORF3\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\HP\\Desktop\\MORF3\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -140,17 +140,17 @@
         }
       }
     },
-    "D:\\Personal Files\\Projects\\MORF3\\MORF3\\Domain\\Domain.csproj": {
+    "C:\\Users\\HP\\Desktop\\MORF3\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Personal Files\\Projects\\MORF3\\MORF3\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\HP\\Desktop\\MORF3\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "D:\\Personal Files\\Projects\\MORF3\\MORF3\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\James\\.nuget\\packages\\",
-        "outputPath": "D:\\Personal Files\\Projects\\MORF3\\MORF3\\Domain\\obj\\",
+        "projectPath": "C:\\Users\\HP\\Desktop\\MORF3\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\HP\\Desktop\\MORF3\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\James\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -195,17 +195,17 @@
         }
       }
     },
-    "D:\\Personal Files\\Projects\\MORF3\\MORF3\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\Users\\HP\\Desktop\\MORF3\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Personal Files\\Projects\\MORF3\\MORF3\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\HP\\Desktop\\MORF3\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "D:\\Personal Files\\Projects\\MORF3\\MORF3\\Infrastructure\\Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\James\\.nuget\\packages\\",
-        "outputPath": "D:\\Personal Files\\Projects\\MORF3\\MORF3\\Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\HP\\Desktop\\MORF3\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\HP\\Desktop\\MORF3\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\James\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -219,8 +219,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Personal Files\\Projects\\MORF3\\MORF3\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\Personal Files\\Projects\\MORF3\\MORF3\\Domain\\Domain.csproj"
+              "C:\\Users\\HP\\Desktop\\MORF3\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\HP\\Desktop\\MORF3\\Domain\\Domain.csproj"
               }
             }
           }
@@ -246,10 +246,6 @@
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.0, )"
-            },
-            "Npgsql.EntityFrameworkCore.PostgreSQL": {
-              "target": "Package",
-              "version": "[8.0.0, )"
             }
           },
           "imports": [
@@ -272,17 +268,17 @@
         }
       }
     },
-    "D:\\Personal Files\\Projects\\MORF3\\MORF3\\Library\\Library.csproj": {
+    "C:\\Users\\HP\\Desktop\\MORF3\\Library\\Library.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Personal Files\\Projects\\MORF3\\MORF3\\Library\\Library.csproj",
+        "projectUniqueName": "C:\\Users\\HP\\Desktop\\MORF3\\Library\\Library.csproj",
         "projectName": "Library",
-        "projectPath": "D:\\Personal Files\\Projects\\MORF3\\MORF3\\Library\\Library.csproj",
-        "packagesPath": "C:\\Users\\James\\.nuget\\packages\\",
-        "outputPath": "D:\\Personal Files\\Projects\\MORF3\\MORF3\\Library\\obj\\",
+        "projectPath": "C:\\Users\\HP\\Desktop\\MORF3\\Library\\Library.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\HP\\Desktop\\MORF3\\Library\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\James\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

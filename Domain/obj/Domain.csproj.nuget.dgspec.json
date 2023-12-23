@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Personal Files\\Projects\\MORF3\\MORF3\\Domain\\Domain.csproj": {}
+    "C:\\Users\\HP\\Desktop\\MORF3\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "D:\\Personal Files\\Projects\\MORF3\\MORF3\\Domain\\Domain.csproj": {
+    "C:\\Users\\HP\\Desktop\\MORF3\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Personal Files\\Projects\\MORF3\\MORF3\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\HP\\Desktop\\MORF3\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "D:\\Personal Files\\Projects\\MORF3\\MORF3\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\James\\.nuget\\packages\\",
-        "outputPath": "D:\\Personal Files\\Projects\\MORF3\\MORF3\\Domain\\obj\\",
+        "projectPath": "C:\\Users\\HP\\Desktop\\MORF3\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\HP\\Desktop\\MORF3\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\James\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
