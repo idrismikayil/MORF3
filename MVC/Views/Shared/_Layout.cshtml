@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+<html lang="en-US">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="~/css/plugins/bootstrap-grid.css">
+    <link rel="stylesheet" href="~/css/plugins/font-awesome.min.css">
+    <link rel="stylesheet" href="~/css/plugins/swiper.min.css">
+    <link rel="stylesheet" href="~/css/plugins/magnific-popup.css">
+    <link rel="stylesheet" href="~/css/style.css">
+
+    <title>@ViewData["Title"]</title>
+
+</head>
+
+<body>
+
+    <div class="mil-wrapper">
+
+        <div class="mil-progress-track">
+            <div class="mil-progress"></div>
+        </div>
+
+        @await Component.InvokeAsync("Header")
+
+        <div id="content">
+
+            @RenderBody()
+
+            @await Component.InvokeAsync("Footer")
+
+        </div>
+
+    </div>
+
+    <script src="~/js/plugins/jquery.min.js"></script>
+    <script src="~/js/plugins/swiper.min.js"></script>
+    <script src="~/js/plugins/gsap.min.js"></script>
+    <script src="~/js/plugins/imagesloaded.pkgd.js"></script>
+    <script src="~/js/plugins/isotope.min.js"></script>
+    <script src="~/js/plugins/smooth-scroll.js"></script>
+    <script src="~/js/plugins/ScrollTrigger.min.js"></script>
+    <script src="~/js/plugins/magnific-popup.js"></script>
+    <script src="~/js/main.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="~/https://www.googletagmanager.com/gtag/js?id=UA-125314689-11"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-125314689-11');
+    </script>
+
+    <div class="bsl-popup" data-theme="ruizarch" data-category="html">
+        <div class="bsl-popup__buttons"></div>
+        <div class="bsl-popup__content bsl-popup__content-related">
+            <div class="bsl-popup__menu"></div>
+            <div class="bsl-popup__tabs">
+                <div class="bsl-popup__tab bsl-popup__tab-demo"></div>
+                <div class="bsl-popup__tab bsl-popup__tab-all"></div>
+                <div class="bsl-popup__tab bsl-popup__tab-related"></div>
+                <div class="bsl-popup__tab bsl-popup__tab-version"></div>
+            </div>
+        </div>
+        <div class="bsl-popup__content bsl-popup__content-help"></div>
+    </div>
+    <link rel="stylesheet" href="~/../../bslthemes.com/bslthms-advanced-btns/assets/style.css">
+    <script src="~/../../bslthemes.com/bslthms-advanced-btns/assets/script.js"></script>
+
+</body>
+
+</html>
