@@ -17,6 +17,8 @@
 
   <ItemGroup>
     <Folder Include="AuthenticationDetails\" />
+    <Folder Include="PageDetails\PartnerPageDetails\Queries\" />
+    <Folder Include="PageDetails\ServicePageDetails\" />
   </ItemGroup>
 
 </Project>

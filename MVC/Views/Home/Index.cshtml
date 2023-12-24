@@ -25,8 +25,7 @@
                                     <p class="mil-light">@item.Title</p>
                                 </div>
                             </div>
-                        }
-                        
+                        } 
                     </div>
                 </div>
             </div>
@@ -38,10 +37,13 @@
         <div class="mil-background-grid mil-softened"></div>
         <div class="swiper-container mil-infinite-show mil-up">
             <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <a href="#." class="mil-partner-frame"><img src="~/img/partners/1.png" alt="logo"></a>
-                </div>
-                <div class="swiper-slide">
+                @foreach (var partner in Model.Partners)
+                {
+                    <div class="swiper-slide">
+                        <a href="@partner.Link" class="mil-partner-frame"><img src="~/img/partners/@partner.ImageTitle" alt="logo"></a>
+                    </div>
+                }
+                @* <div class="swiper-slide">
                     <a href="#." class="mil-partner-frame"><img src="~/img/partners/2.png" alt="logo"></a>
                 </div>
                 <div class="swiper-slide">
@@ -55,7 +57,7 @@
                 </div>
                 <div class="swiper-slide">
                     <a href="#." class="mil-partner-frame"><img src="~/img/partners/6.png" alt="logo"></a>
-                </div>
+                </div> *@
             </div>
         </div>
     </div>

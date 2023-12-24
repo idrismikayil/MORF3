@@ -1,8 +1,10 @@
+using Application.PageDetails.PartnerPageDetails.Commands;
+using Domain.Entities;
 using Infrastructure.Data;
+using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using MVC.ViewModels;
-using System.Diagnostics;
-using System.Runtime.CompilerServices;
+
 
 namespace MVC.Controllers
 {
@@ -15,13 +17,16 @@ namespace MVC.Controllers
         }
         public IActionResult Index()
         {
-            HomeVM homeVM = new HomeVM()
+            Console.WriteLine("Home is used");
+            HomeVM homeVM = new()
             {
+                Partners = _context.Partners.ToList(),
                 Banner = _context.Banners.FirstOrDefault(),
                 Statistics = _context.Statistics.ToList()
             };
-
             return View(homeVM);
         }
+
+
     }
 }

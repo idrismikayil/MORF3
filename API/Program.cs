@@ -7,11 +7,6 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-foreach (var assembly in AppDomain.CurrentDomain.GetAssemblies())
-{
-    builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblies(assembly));
-}
-
 #region Business Services
 #endregion
 #region Global Exception Handler
