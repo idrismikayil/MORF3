@@ -1,24 +1,20 @@
-using Infrastructure.Data;
 using Infrastructure.Middleware;
-using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-
+#region Services
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+#region Business Services
+#endregion
 #region Global Exception Handler
 builder.Services.AddLogging();
 builder.Services.AddTransient<GlobalExceptionHandler>();
 #endregion
-
+#endregion
 var app = builder.Build();
-
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
@@ -26,11 +22,9 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
 app.UseAuthorization();
-
+#region Middleware
 app.UseMiddleware<GlobalExceptionHandler>();
-
+#endregion
 app.MapControllers();
-
 app.Run();

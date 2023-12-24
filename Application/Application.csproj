@@ -11,4 +11,14 @@
     <ProjectReference Include="..\Infrastructure\Infrastructure.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="12.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="AuthenticationDetails\" />
+    <Folder Include="PageDetails\PartnerPageDetails\Queries\" />
+    <Folder Include="PageDetails\ServicePageDetails\" />
+  </ItemGroup>
+
 </Project>
