@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Library", "Library\Library.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API", "API\API.csproj", "{67AE06B0-C56A-4686-9503-D2B859507827}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC", "MVC\MVC.csproj", "{D4DC7AD1-64AA-4868-ACDB-C2DDAE861DEF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{67AE06B0-C56A-4686-9503-D2B859507827}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{67AE06B0-C56A-4686-9503-D2B859507827}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{67AE06B0-C56A-4686-9503-D2B859507827}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4DC7AD1-64AA-4868-ACDB-C2DDAE861DEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4DC7AD1-64AA-4868-ACDB-C2DDAE861DEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4DC7AD1-64AA-4868-ACDB-C2DDAE861DEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4DC7AD1-64AA-4868-ACDB-C2DDAE861DEF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
