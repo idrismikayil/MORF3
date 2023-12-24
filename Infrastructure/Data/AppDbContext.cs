@@ -1,4 +1,5 @@
 ﻿using Domain.Entities;
+using Domain.Entities.Home;
 using Domain.Exceptions;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -9,6 +10,9 @@ namespace Infrastructure.Data
     {
         public DbSet<User> Users { get; set; }
         public DbSet<Portfolio> Portfolios { get; set; }
+        public DbSet<Banner> Banners { get; set; }
+        public DbSet<Statistic> Statistics { get; set; }
+
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

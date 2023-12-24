@@ -1,5 +1,7 @@
-﻿<section class="mil-banner">
-    <img src="~/img/photo/1.jpg" class="mil-bg-img mil-scale" data-value-1=".4" data-value-2="1.4" alt="image">
+﻿@model HomeVM
+
+<section class="mil-banner">
+    <img src="~/img/photo/@Model.Banner.Image" class="mil-bg-img mil-scale" data-value-1=".4" data-value-2="1.4" alt="image">
     <div class="mil-overlay"></div>
     <div class="container">
         <div class="mil-background-grid mil-top-space"></div>
@@ -8,45 +10,23 @@
                 <div class="col-xl-7">
 
                     <div class="mil-mb-90">
-                        <h1 class="mil-upper mil-light mil-mb-60">Modern<br><span class="mil-accent">Architectural</span><br>Design</h1>
-                        <a href="portfolio.html" class="mil-link mil-light mil-upper">View Projects <span class="mil-arrow"><img src="~/img/icons/1.svg" alt="arrow"></span></a>
+                        <h1 class="mil-upper mil-light mil-mb-60">@Model.Banner.Title</h1>
+                        <a href="@Model.Banner.Link" class="mil-link mil-light mil-upper">@Model.Banner.SubTitle <span class="mil-arrow"><img src="~/img/icons/1.svg" alt="arrow"></span></a>
                     </div>
 
                 </div>
                 <div class="col-xl-5">
                     <div class="row mil-mb-60">
-                        <div class="col-6">
-
-                            <div class="mil-counter-frame mil-light mil-mb-30">
-                                <h4 class="mil-accent mil-thin mil-mb-10"><span class="mil-counter" data-number="346">0</span>+</h4>
-                                <p class="mil-light">Succeeded <br>Projects</p>
+                        @foreach (var item in Model.Statistics)
+                        {
+                            <div class="col-6">
+                                <div class="mil-counter-frame mil-light mil-mb-30">
+                                    <h4 class="mil-accent mil-thin mil-mb-10"><span class="mil-counter" data-number="@item.Count">0</span>+</h4>
+                                    <p class="mil-light">@item.Title</p>
+                                </div>
                             </div>
-
-                        </div>
-                        <div class="col-6">
-
-                            <div class="mil-counter-frame mil-light mil-mb-30">
-                                <h4 class="mil-accent mil-thin mil-mb-10"><span class="mil-counter" data-number="9">0</span>k+</h4>
-                                <p class="mil-light">Working <br>Hours</p>
-                            </div>
-
-                        </div>
-                        <div class="col-6">
-
-                            <div class="mil-counter-frame mil-light mil-mb-30">
-                                <h4 class="mil-accent mil-thin mil-mb-10"><span class="mil-counter" data-number="10">0</span>+</h4>
-                                <p class="mil-light">Years <br>Experience</p>
-                            </div>
-
-                        </div>
-                        <div class="col-6">
-
-                            <div class="mil-counter-frame mil-light mil-mb-30">
-                                <h4 class="mil-accent mil-thin mil-mb-10"><span class="mil-counter" data-number="99">0</span>+</h4>
-                                <p class="mil-light">Billion <br>Invested</p>
-                            </div>
-
-                        </div>
+                        }
+                        
                     </div>
                 </div>
             </div>
