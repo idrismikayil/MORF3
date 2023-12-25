@@ -1,4 +1,5 @@
-using Application.PageDetails.PartnerPageDetails.Commands;
+
+using Application.PageDetails.PartnerPageDetails.Queries;
 using Domain.Entities;
 using Infrastructure.Data;
 using MediatR;
@@ -8,16 +9,12 @@ using MVC.ViewModels;
 
 namespace MVC.Controllers
 {
-    public class HomeController : Controller
+    public class HomeController(AppDbContext context) : Controller
     {
-        private readonly AppDbContext _context;
-        public HomeController(AppDbContext context)
-        {
-            _context = context;
-        }
+        private readonly AppDbContext _context = context;
+
         public IActionResult Index()
         {
-            Console.WriteLine("Home is used");
             HomeVM homeVM = new()
             {
                 Partners = _context.Partners.ToList(),
@@ -26,7 +23,5 @@ namespace MVC.Controllers
             };
             return View(homeVM);
         }
-
-
     }
 }

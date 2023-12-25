@@ -1,7 +1,5 @@
-﻿using Application.PageDetails.PartnerPageDetails.Responses;
-using Domain.Entities;
+﻿using Domain.Entities;
 using Domain.Entities.Home;
-using MediatR;
 
 namespace MVC.ViewModels
 {
