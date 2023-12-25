@@ -17,7 +17,8 @@
 
   <ItemGroup>
     <Folder Include="AuthenticationDetails\" />
-    <Folder Include="PageDetails\PartnerPageDetails\Queries\" />
+    <Folder Include="PageDetails\PartnerPageDetails\Commands\" />
+    <Folder Include="PageDetails\PartnerPageDetails\Responses\" />
     <Folder Include="PageDetails\ServicePageDetails\" />
   </ItemGroup>
 
